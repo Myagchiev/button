@@ -8,6 +8,7 @@ body {
     background-color: #2148C0;
     background-image: url("ЭКСПОРТИРУЙ МЕНЯ.png");
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +33,7 @@ body {
     height: 502px;
     top: 402px;
     left: 463px;
+    margin-top: auto;
 }
 
 button {

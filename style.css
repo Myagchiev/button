@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 body {
     width: 1677px;
     height: 1158px;
-    top: -585px;
-    left: -1668px;
     background-color: #2148C0;
     background-image: url("ЭКСПОРТИРУЙ МЕНЯ.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .white-box {
@@ -26,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 375px;
+
 }
 
 .box {
@@ -64,5 +68,4 @@ button {
     color: white;
     position: absolute;
     top: 120px;
-    margin-left: 375px;
   }

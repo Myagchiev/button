@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 375px;
 }
 
 .box {
@@ -63,4 +64,5 @@ button {
     color: white;
     position: absolute;
     top: 120px;
+    margin-left: 375px;
   }

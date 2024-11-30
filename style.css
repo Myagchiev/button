@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    width: 1677px;
+    height: 1158px;
+    top: -585px;
+    left: -1668px;
+    background-color: #2148C0;
+    background-image: url("ЭКСПОРТИРУЙ МЕНЯ.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box {
+    width: 927px;
+    height: 647px;
+    top: 316px;
+    left: 375px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 751px;
+    height: 502px;
+    top: 402px;
+    left: 463px;
+}
+
+button {
+    background-color: #2148C0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #04AA6D;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    position: absolute;
+    top: 120px;
+  }

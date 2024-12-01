@@ -4,38 +4,31 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 body {
-    width: 1677px;
-    height: 1158px;
     background-color: #2148C0;
     background-image: url("ЭКСПОРТИРУЙ МЕНЯ.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .white-box {
-    width: 927px;
-    height: 647px;
-    top: 316px;
-    left: 375px;
-    gap: 0px;
+    margin-top: 50px;
     border-radius: 10px;
     opacity: 0px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 40px;
 }
 
 .box {
-    width: 751px;
-    height: 502px;
+    width: 651px;
+    height: 402px;
     top: 402px;
     left: 463px;
     margin-top: auto;
@@ -58,6 +51,8 @@ button {
   }
 
   p {
+    margin-top: 0px;
+    margin-left: 190px;
     font-family: 'Inter';
     font-size: 28px;
     font-weight: 600;
@@ -66,6 +61,4 @@ button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
-    position: absolute;
-    top: 120px;
   }
